@@ -9,7 +9,12 @@ header {
 .btn{
     border-radius: 41px;
 background: rgb(224, 44, 109);
-color: white
+color: white;
+transition: 0.7s;
+}
+.btn:hover{
+     background-color: rgb(99, 11, 43);
+     color:antiquewhite;
 }
  header{
    width: 60%;
@@ -59,7 +64,7 @@ nav .logo{
    justify-content: space-between;
    align-items: center;
    height: 475px;
-   background-image: url("/images/Circle\ design.svg");
+   background-image: url("./images/Circle\ design.svg");
    background-repeat: no-repeat;
    background-position: right center;
    margin-top: 52px;
@@ -117,7 +122,10 @@ background: rgb(255, 255, 255);
 width: 300px;
 height: 476px;
 padding: 16px;
-
+transition: 0.7s;
+}
+.card:hover{
+    background-color: rgba(177, 74, 74, 0.5);
 }
 .card-rating{
     color:orange
