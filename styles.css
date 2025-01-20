@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* header> nav styles begins */
+header {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+.text-color{
+    color: rgb(58, 58, 58);
+}
+.btn{
+    border-radius: 41px;
+background: rgb(224, 44, 109);
+color: white
+}
+ header{
+   width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+     
+} 
+nav  {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+  
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.links{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+   
+}
+.links .link-img img{
+    width: 30px;
+    height: 30px;
+    color: black;
+    
+}
+.links p a{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+.links p {
+    font-size:1.1rem;
+}
+/* banner styles starts */
+.banner-container{
+   display: flex;  
+   justify-content: space-between;
+   align-items: center;
+   height: 475px;
+   background-image: url("/images/Circle\ design.svg");
+   background-repeat: no-repeat;
+   background-position: right center;
+   margin-top: 52px;
+}
+.banner-heading{
+    font-size: 52px;
+font-weight: 700;
+  margin: 0px 0px 16px 0px;
+}
+.banner-text{
+    font-size: 16px;
+    justify-content: left;
+    margin : 0px 0px 40px 0px;
+
+}
+.banner-btn{
+    width: 26%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 700;
+}
+.banner-btn img {
+    height: 60%;
+    color: white;
+}
+.company{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    margin-top: 100px;
+    padding: 36px 60px;
+}
