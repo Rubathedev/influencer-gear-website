@@ -18,6 +18,12 @@ color: white
     flex-direction: column;
      
 } 
+main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 nav  {
    display: flex;
    justify-content: space-between;
@@ -82,9 +88,107 @@ font-weight: 700;
     height: 60%;
     color: white;
 }
+/* company style */
 .company{
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
     margin-top: 100px;
     padding: 36px 60px;
+}
+/* popular collection */
+.populur-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 100px 50px 30px 0px ;
+  
+}
+.popular-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 40px ;
+    
+}
+.card{
+    border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+width: 300px;
+height: 476px;
+padding: 16px;
+
+}
+.card-rating{
+    color:orange
+}
+.card-rating .taki{
+    color: black;
+}
+/* see more styles */
+#see-more{
+    width: 100%;
+    text-align: right;
+    color:rgba(224, 44, 109, 0.87);
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* product style */
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 174px;
+    border-radius: 7px;
+    align-items: center;
+    gap: 96px;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.product-headline{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+.product-btn{
+    border-radius: 0px;
+    width: 155px;
+height: 44px; 
+font-size: 16px;
+font-weight: 700;
+}
+/* footer design */
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(10,8,38);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   padding: 20px;
+   gap: 5px;
+  margin-top: 100px ;
+}
+.footer-headline{
+    font-size: 34px;
+font-weight: 700;
+margin-bottom: 0px;
+}
+.footer-link{
+    display: flex;
+    gap: 25px;
+ justify-content: center;
+
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-text{
+    color: whitesmoke;
 }
